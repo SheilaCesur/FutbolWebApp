@@ -1,5 +1,5 @@
 Compiling Program: C:\DataFlex Projects\FutbolWebApp\AppSrc\WebApp.src
-Memory Available: 105973084160
+Memory Available: 86497415168
 1>Use AllWebUIServerClasses.pkg
 Including file: AllWebUIServerClasses.pkg    (C:\DataFlex Projects\FutbolWebApp\DfPkg\DataFlex_dev_Web_UI_Server-1.0.56\AppSrc\AllWebUIServerClasses.pkg)
 1>>>//  Server specific
@@ -66496,7 +66496,7 @@ Including file: Dashboard.wo    (C:\DataFlex Projects\FutbolWebApp\AppSrc\Dashbo
 39625>>>                Set piColumnSpan to 6
 39626>>>                Set piColumnIndex to 6
 39627>>>                Set psCSSClass to "Tile LightAlternate"
-39628>>>                Set psHtml to '<div class="WebCon_Sizer" data-ServerOnClick="openview"><div Class="Tile_Title">Liga</div><div class="Tile_Subtitle"></div></div>'
+39628>>>                Set psHtml to '<div class="WebCon_Sizer" data-ServerOnClick="openview"><div Class="Tile_Title">Liga</div><div class="Tile_Subtitle">LaLiga y Premier League</div></div>'
 39629>>>                                
 39629>>>                WebRegisterPath ntNavigateForwardCustom oSelectLiga
 39635>>>                
@@ -66510,7 +66510,7 @@ Including file: Dashboard.wo    (C:\DataFlex Projects\FutbolWebApp\AppSrc\Dashbo
 39643>>>                Set pbServerOnClick to True
 39644>>>                Set piColumnSpan to 6
 39645>>>                Set psCSSClass to "Tile Dark"
-39646>>>                Set psHtml to '<div class="WebCon_Sizer" data-ServerOnClick="openview"><div Class="Tile_Title">Equipo</div><div class="Tile_Subtitle"></div></div>'
+39646>>>                Set psHtml to '<div class="WebCon_Sizer" data-ServerOnClick="openview"><div Class="Tile_Title">Equipo</div><div class="Tile_Subtitle">6 equipos</div></div>'
 39647>>>    
 39647>>>                WebRegisterPath ntNavigateForwardCustom oSelectEquipo
 39653>>>                
@@ -66524,7 +66524,7 @@ Including file: Dashboard.wo    (C:\DataFlex Projects\FutbolWebApp\AppSrc\Dashbo
 39661>>>            Set piColumnSpan to 6
 39662>>>            Set piColumnIndex to 6
 39663>>>            Set psCSSClass to "Tile DarkAlternate"
-39664>>>            Set psHtml to '<div class="WebCon_Sizer" data-ServerOnClick="openview"><div Class="Tile_Title">Entrenador</div><div class="Tile_Subtitle"></div></div>'
+39664>>>            Set psHtml to '<div class="WebCon_Sizer" data-ServerOnClick="openview"><div Class="Tile_Title">Entrenador</div><div class="Tile_Subtitle">Los técnicos</div></div>'
 39665>>>            Set pbServerOnClick to True
 39666>>>
 39666>>>            WebRegisterPath ntNavigateForwardCustom oSelectEntrenador
@@ -66539,7 +66539,7 @@ Including file: Dashboard.wo    (C:\DataFlex Projects\FutbolWebApp\AppSrc\Dashbo
 39680>>>            Set piColumnSpan to 6
 39681>>>            Set piColumnIndex to 0
 39682>>>            Set psCSSClass to "Tile Light"
-39683>>>            Set psHtml to '<div class="WebCon_Sizer" data-ServerOnClick="openview"><div Class="Tile_Title">Jugador</div><div class="Tile_Subtitle"></div></div>'
+39683>>>            Set psHtml to '<div class="WebCon_Sizer" data-ServerOnClick="openview"><div Class="Tile_Title">Jugador</div><div class="Tile_Subtitle">Las plantillas</div></div>'
 39684>>>            Set pbServerOnClick to True
 39685>>>
 39685>>>            WebRegisterPath ntNavigateForwardCustom oSelectJugador
@@ -66554,7 +66554,7 @@ Including file: Dashboard.wo    (C:\DataFlex Projects\FutbolWebApp\AppSrc\Dashbo
 39699>>>            Set piColumnSpan to 6
 39700>>>            Set piColumnIndex to 6
 39701>>>            Set psCSSClass to "Tile LightAlternate"
-39702>>>            Set psHtml to '<div class="WebCon_Sizer" data-ServerOnClick="openview"><div Class="Tile_Title">Posicion</div><div class="Tile_Subtitle"></div></div>'
+39702>>>            Set psHtml to '<div class="WebCon_Sizer" data-ServerOnClick="openview"><div Class="Tile_Title">Posicion</div><div class="Tile_Subtitle">Puestos en el campo</div></div>'
 39703>>>            Set pbServerOnClick to True
 39704>>>
 39704>>>            WebRegisterPath ntNavigateForwardCustom oSelectPosicion
@@ -66671,7 +66671,7 @@ Including file: equipo.fd    (C:\DataFlex Projects\FutbolWebApp\DDSrc\equipo.fd)
 39785>>>>>            Set piColumnSpan to 2
 39786>>>>>            Set piColumnIndex to 0
 39787>>>>>            Set peLabelPosition to lpTop
-39788>>>>>            Set psLabel to "EquiposMax"
+39788>>>>>            Set psLabel to "Máx de equipos"
 39789>>>>>        End_Object 
 39790>>>>>    End_Object 
 39791>>>>>
@@ -66804,7 +66804,7 @@ Including file: equipo.fd    (C:\DataFlex Projects\FutbolWebApp\DDSrc\equipo.fd)
 39912>>>Use cligaDataDictionary.dd
 39912>>>
 39912>>>Object oSelectLiga is a cWebView
-39914>>>    Set psCaption to "SelectLiga"
+39914>>>    Set psCaption to "Ligas" 
 39915>>>    Set peWebViewStyle to wvsDrilldown
 39916>>>    Set peViewType to vtSelect
 39917>>>    Set piColumnCount to 12
@@ -68660,7 +68660,7 @@ Including file: ZoomLigaEquipos.wo    (C:\DataFlex Projects\FutbolWebApp\AppSrc\
 41514>Send StartWebApp of oWebApp
 41515>
 Summary
-Memory Available: 105945866240
+Memory Available: 86509314048
 Total Warnings : 0
 Total Errors   : 0
 Total Symbols  : 26486
@@ -68668,6 +68668,6 @@ Total Resources: 0
 Total Commands : 41514
 Total Windows  : 0
 Total Pages    : 0
-Static Data    : 510347
+Static Data    : 510431
 Message area   : 282988
 Total Blocks   : 18214
