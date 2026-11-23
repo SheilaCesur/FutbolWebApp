@@ -32,4 +32,15 @@ Class cequipoDataDictionary is a DataDictionary
 
     End_Procedure
 
+    Procedure Backout
+        Forward Send Backout
+        Move (liga.Equipos - 1) to liga.Equipos
+    End_Procedure
+
+    Procedure Update
+        Forward Send Update
+        Move (liga.Equipos + 1) to liga.Equipos
+    End_Procedure
+
+
 End_Class
